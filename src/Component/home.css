@@ -1,0 +1,45 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.page-item {
+    margin: 0 5px;
+}
+
+.page-link {
+    color: #007bff;
+    cursor: pointer;
+}
+
+.page-item.active .page-link {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+}
+.lower-contain{
+    margin-top: 50px;
+}
+.upperside{
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    width: 30%;
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+.upperside div{
+    margin-right: 20px;
+}
+.upperside div input{
+    outline: none;
+}
+.upperside div i{
+    font-size: 20px;
+    cursor: pointer;
+}
+.ab{
+    cursor: pointer;
+}
